@@ -1,7 +1,6 @@
 #ifndef GRASS_HPP
 #define GRASS_HPP
 
-
 #include "Plant.hpp"
 #include "Seeds.hpp"
 
@@ -14,5 +13,4 @@ public:
 	}
 };
 
-
-#endif //Grass_HPP
+#endif // GRASS_HPP

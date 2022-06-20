@@ -7,9 +7,6 @@
 class Seeds : public Harvest {
 public:
 	Seeds() :Harvest("SEEDS") { }
-	//const char *type() {
-	//	return Harvest::getName();
-	//}
 private:
 	void setName(const char* name) {
 		Harvest::setName(name);
@@ -17,4 +14,4 @@ private:
 };
 
 
-#endif // !FRUIT_HPP#pragma once
+#endif // !SEEDS_HPP

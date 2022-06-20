@@ -138,7 +138,6 @@
     <ClInclude Include="Grass.hpp" />
     <ClInclude Include="Plant.hpp" />
     <ClInclude Include="Harvest.hpp" />
-    <ClInclude Include="Polymorphism.h" />
     <ClInclude Include="Seeds.hpp" />
     <ClInclude Include="Tree.hpp" />
   </ItemGroup>
