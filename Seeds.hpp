@@ -1,5 +1,6 @@
 #pragma once
 #include "Harvest.hpp"
+
 class Seeds: public Harvest {
 public:
 	Seeds() : Harvest("Seeds") {}
