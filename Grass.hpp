@@ -1,4 +1,3 @@
-#pragma once
 #ifndef GRASS_HPP
 #define GRASS_HPP
 
@@ -13,5 +12,6 @@ public:
 		return std::make_unique<Seeds>();
 	}
 };
+
 
 #endif // GRASS_HPP

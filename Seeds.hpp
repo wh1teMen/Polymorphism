@@ -1,4 +1,3 @@
-#pragma once
 #ifndef SEEDS_HPP
 #define SEEDS_HPP
 
@@ -14,4 +13,3 @@ private:
 };
 
 #endif // !SEEDS_HPP
-
