@@ -24,6 +24,9 @@
     <ClCompile Include="Plant.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="Header.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Harvest.hpp">
@@ -51,6 +54,7 @@
     <ClInclude Include="Seeds.hpp">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
+    <ClInclude Include="Header.hpp">
     <ClInclude Include="Grass.hpp">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
