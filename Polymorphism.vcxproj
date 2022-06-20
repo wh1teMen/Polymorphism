@@ -135,8 +135,11 @@
     <ClInclude Include="Berry.hpp" />
     <ClInclude Include="Bush.hpp" />
     <ClInclude Include="Fruit.hpp" />
+    <ClInclude Include="Grass.h" />
+    <ClInclude Include="Header.h" />
     <ClInclude Include="Plant.hpp" />
     <ClInclude Include="Harvest.hpp" />
+    <ClInclude Include="Seed.h" />
     <ClInclude Include="Tree.hpp" />
   </ItemGroup>
   <ItemGroup>
