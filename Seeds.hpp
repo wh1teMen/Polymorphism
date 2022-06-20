@@ -1,10 +1,9 @@
 #pragma once
 #include "Harvest.hpp"
 
-class Seeds:public Harvest
-{
+class Seeds: public Harvest {
 public:
-	Seeds() :Harvest("Seeds") {}
+	Seeds() : Harvest("Seeds") {}
 private:
 	void setName(const char* name)
 	{
