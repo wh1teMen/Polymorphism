@@ -8,8 +8,8 @@
 #include "Plant.hpp"
 #include "Tree.hpp"
 #include "Bush.hpp"
-#include "Herbs.hpp"
-#include "Seeds.h"
+#include "Herbes.hpp"
+#include "Seeds.hpp"
 
 using Environment = std::shared_ptr<std::vector<std::unique_ptr<Plant>>>;
 
@@ -22,7 +22,7 @@ Environment Init() {
 		result->emplace_back(std::make_unique<Bush>());
 	}
 	for (size_t i = 0; i < 8; i++) {
-		result->emplace_back(std::make_unique<Herbs>());
+		result->emplace_back(std::make_unique<Herbes>());
 	}
 	std::random_shuffle(result->begin(), result->end());
 	return result;
