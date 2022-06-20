@@ -3,13 +3,15 @@
 
 #include "Harvest.hpp"
 
-class Seeds:public Harvest {
+
+class Seeds : public Harvest {
 public:
-	Seeds():Harvest("Seeds") { }
+	Seeds() :Harvest("SEEDS") { }
 private:
 	void setName(const char* name) {
 		Harvest::setName(name);
 	}
 };
+
 
 #endif // !SEEDS_HPP
